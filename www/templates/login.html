@@ -1,0 +1,26 @@
+<ion-view title="Login" id="page5">
+  <ion-content padding="true" style="background: url(img/AHktay1Rlys06V5avks6_andorra.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <div id="login-markdown3" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">{{error}}</p>
+    </div>
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <div>
+      <img src="img/fLaFeKyqSJaEwx519roC_els2900_partners_andorra-turisme.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="login-form4" class="list">
+      <ion-list id="login-list6">
+        <label class="item item-input" id="login-input13">
+          <span class="input-label">Email</span>
+          <input type="text" placeholder="" ng-model="login.email">
+        </label>
+        <label class="item item-input" id="login-input14">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="login.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <button id="login-button8" ng-click="logIn()" class="button button-stable  button-block">Log in</button>
+      <a ui-sref="signup" id="login-button9" class="button button-positive  button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>
